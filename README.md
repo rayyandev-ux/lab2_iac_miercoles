@@ -68,5 +68,9 @@ Luego podemos hacer un terraform destroy y luego terraform apply para asegurarno
 
 Comandos importantes:
 
-terraform 
+terraform workspace select
+terraform apply
+terraform destroy
+docker ps
+docker build 
 

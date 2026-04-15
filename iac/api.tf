@@ -6,4 +6,7 @@ resource "docker_container" "api" {
     internal = "3000"
     external = var.api_port[terraform.workspace]
   }
+ networks_advanced {
+    name = docker_network.app_network.name
+  }
 }
